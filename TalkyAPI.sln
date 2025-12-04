@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talky.Auth.Api", "Auth\Talky.Auth.Api\Talky.Auth.Api.csproj", "{FB438C3A-CFE5-4029-98CA-D30A03BC9CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talky.Auth.Data", "Auth\Talky.Auth.Data\Talky.Auth.Data.csproj", "{C56C5378-D99E-4E6E-818A-B7A2FA9DD244}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{45D81F16-066D-4852-A5BA-56951D35247D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{83AFDC58-270D-489A-A5BB-FAB8A2EC9940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talky.Common.Data", "Common\Talky.Common.Data\Talky.Common.Data.csproj", "{A5DD1B98-A04C-4978-BF11-AD3EA32432BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talky.Auth.Service", "Auth\Talky.Auth.Service\Talky.Auth.Service.csproj", "{86A8F887-7433-4B36-9ED7-F26C10489B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talky.Common.Core", "Common\Talky.Common.Core\Talky.Common.Core.csproj", "{7F340E0D-76F9-4EFA-8053-55E3A0DA1279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB438C3A-CFE5-4029-98CA-D30A03BC9CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB438C3A-CFE5-4029-98CA-D30A03BC9CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB438C3A-CFE5-4029-98CA-D30A03BC9CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB438C3A-CFE5-4029-98CA-D30A03BC9CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C56C5378-D99E-4E6E-818A-B7A2FA9DD244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56C5378-D99E-4E6E-818A-B7A2FA9DD244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56C5378-D99E-4E6E-818A-B7A2FA9DD244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56C5378-D99E-4E6E-818A-B7A2FA9DD244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DD1B98-A04C-4978-BF11-AD3EA32432BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DD1B98-A04C-4978-BF11-AD3EA32432BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DD1B98-A04C-4978-BF11-AD3EA32432BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DD1B98-A04C-4978-BF11-AD3EA32432BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A8F887-7433-4B36-9ED7-F26C10489B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A8F887-7433-4B36-9ED7-F26C10489B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A8F887-7433-4B36-9ED7-F26C10489B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A8F887-7433-4B36-9ED7-F26C10489B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F340E0D-76F9-4EFA-8053-55E3A0DA1279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F340E0D-76F9-4EFA-8053-55E3A0DA1279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F340E0D-76F9-4EFA-8053-55E3A0DA1279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F340E0D-76F9-4EFA-8053-55E3A0DA1279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C56C5378-D99E-4E6E-818A-B7A2FA9DD244} = {45D81F16-066D-4852-A5BA-56951D35247D}
+		{FB438C3A-CFE5-4029-98CA-D30A03BC9CAC} = {45D81F16-066D-4852-A5BA-56951D35247D}
+		{A5DD1B98-A04C-4978-BF11-AD3EA32432BB} = {83AFDC58-270D-489A-A5BB-FAB8A2EC9940}
+		{86A8F887-7433-4B36-9ED7-F26C10489B26} = {45D81F16-066D-4852-A5BA-56951D35247D}
+		{7F340E0D-76F9-4EFA-8053-55E3A0DA1279} = {83AFDC58-270D-489A-A5BB-FAB8A2EC9940}
+	EndGlobalSection
+EndGlobal
