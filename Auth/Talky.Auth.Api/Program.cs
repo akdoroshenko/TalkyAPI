@@ -1,6 +1,14 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using System.Reflection;
 
-app.MapGet("/", () => "Hello World!");
+namespace Talky.Auth.Api;
 
-app.Run();
+public class Program
+{
+    public static async Task Main(string[] args)
+    {
+        await CreateHostBuilder(args).Build().RunAsync();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args).ConfigureWebHostDefaults(builder => { builder.UseStartup<Startup>(); });
+}

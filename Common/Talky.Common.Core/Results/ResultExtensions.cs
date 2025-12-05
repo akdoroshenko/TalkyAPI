@@ -34,7 +34,7 @@ public static class ResultExtensions
 #pragma warning disable CS0162
             return new UnwrapResult<TValue>(
                 default,
-                new ErrorResult<TValue>(new Error("UNKNOWN_ERROR", e.Message, e)));
+                new ErrorResult<TValue>(new Error(e.Message, ErrorCode.Unknown, e)));
 #pragma warning restore CS0162
         }
     }
@@ -58,9 +58,7 @@ public static class ResultExtensions
 #endif
 
 #pragma warning disable CS0162
-
-            // ReSharper disable once HeuristicUnreachableCode
-            return new ErrorResult<Unit>(new Error("UNKNOWN_ERROR", e.Message, e));
+            return new ErrorResult<Unit>(new Error(e.Message, ErrorCode.Unknown, e));
 #pragma warning restore CS0162
         }
     }
@@ -81,7 +79,7 @@ public static class ResultExtensions
 #pragma warning disable CS0162
             return new UnwrapResult<TValue>(
                 default,
-                new ErrorResult<TValue>(new Error("UNKNOWN_ERROR", e.Message, e)));
+                new ErrorResult<TValue>(new Error(e.Message, ErrorCode.Unknown, e)));
 #pragma warning restore CS0162
         }
     }
@@ -107,7 +105,7 @@ public static class ResultExtensions
 #pragma warning disable CS0162
 
             // ReSharper disable once HeuristicUnreachableCode
-            return new ErrorResult<Unit>(new Error("UNKNOWN_ERROR", e.Message, e));
+            return new ErrorResult<Unit>(new Error(e.Message, ErrorCode.Unknown, e));
 #pragma warning restore CS0162
         }
     }

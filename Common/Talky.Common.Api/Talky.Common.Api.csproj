@@ -4,11 +4,11 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <OutputType>Library</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Common\Talky.Common.Api\Talky.Common.Api.csproj" />
-      <ProjectReference Include="..\Talky.Auth.Service\Talky.Auth.Service.csproj" />
+      <ProjectReference Include="..\Talky.Common.Data\Talky.Common.Data.csproj" />
     </ItemGroup>
 
 </Project>

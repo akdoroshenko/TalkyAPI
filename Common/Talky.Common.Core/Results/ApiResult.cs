@@ -55,7 +55,7 @@ namespace Talky.Common.Core.Results
 
     public class ApiError
     {
-        public string Code { get; set; }
+        public ErrorCode Code { get; set; }
 
         public string Message { get; set; }
     }
